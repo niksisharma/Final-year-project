@@ -6,3 +6,4 @@ Literature survey status updates: https://docs.google.com/document/d/1GfAwYnXF9I
 
 PPT: https://www.canva.com/design/DAEnKIWGG7o/xq9_QUM3NrCGJqjfdWfIFQ/edit
 
+Literature survey table thing: https://docs.google.com/document/d/1bbA3sgY2ew07IvlQsbxQtRE1zMJUm21z0Zmmi57543U/edit?pli=1
