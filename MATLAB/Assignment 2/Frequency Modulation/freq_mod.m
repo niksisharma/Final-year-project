@@ -26,7 +26,7 @@ Fs=4000;
 N=4096;
 df=Fs/N;
 k= (-Fs/2:df:Fs/2-df)*2*pi/Fs;
-S=fftshift(fft(y,N)); %Discrete Fourier Trasnform
+S=fftshift(fft(y,N)); %Discrete Fourier Transform
 subplot(514);
 plot(k,abs(S));
 title('Magnitude of Discrete Fourier Transform');
