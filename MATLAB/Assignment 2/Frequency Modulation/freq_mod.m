@@ -1,6 +1,7 @@
 clear all;
 close all;
 Am=1;
+Ac=1;
 kf=500; %Frequency Deviation
 fc=1000; %Carrier Frequency
 fm=200; %Modulating Frequency
@@ -23,7 +24,7 @@ ylabel('Amplitude');
 xlabel('Time index');
 title('Modulating Signal');
 grid on;
-y=cos(2*pi*fc*n+(m.*sin(2*pi*fm*n))); %Frequency Modulation
+y=Ac*(cos(2*pi*fc*n+(m.*sin(2*pi*fm*n)))); %Frequency Modulation
 subplot(423);
 plot (n,y);
 ylabel('Amplitude');
