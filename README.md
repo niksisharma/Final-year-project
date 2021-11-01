@@ -9,3 +9,5 @@ PPT Phase 1: https://www.canva.com/design/DAEqndNHQWY/IqM_I1O2eHsLMNZdUfc9zg/edi
 PPT Phase 2: https://www.canva.com/design/DAEtqowtHe8/share/preview?token=ZhUvV0tdkEgxuoIkJws79Q&role=EDITOR&utm_content=DAEtqowtHe8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
 Literature survey table thing: https://docs.google.com/document/d/1bbA3sgY2ew07IvlQsbxQtRE1zMJUm21z0Zmmi57543U/edit?pli=1
+
+Assignment 2: https://docs.google.com/document/d/1fCPOwGl28JHCZGVYiEQbSQHi-VsVPD0RFPArGUkWt1c/edit?usp=sharing
