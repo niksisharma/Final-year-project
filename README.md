@@ -12,4 +12,7 @@ PPT Phase 3: https://www.canva.com/design/DAEt_NplE20/Te6USnClJk_J0_FyCXbFKA/vie
 
 Literature survey table thing: https://docs.google.com/document/d/1bbA3sgY2ew07IvlQsbxQtRE1zMJUm21z0Zmmi57543U/edit?pli=1
 
+Literature survey table thing (but new and fancy)
+https://docs.google.com/presentation/d/1F2cqY1N360HIBA4oR7OGXKTdfEam3S4gDFVpZy4hxKU/edit?usp=sharing
+
 Assignment 2: https://docs.google.com/document/d/1fCPOwGl28JHCZGVYiEQbSQHi-VsVPD0RFPArGUkWt1c/edit?usp=sharing
