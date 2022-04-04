@@ -8,7 +8,9 @@ PPT Phase 1: https://www.canva.com/design/DAEqndNHQWY/IqM_I1O2eHsLMNZdUfc9zg/edi
 
 PPT Phase 2: https://www.canva.com/design/DAEtqowtHe8/share/preview?token=ZhUvV0tdkEgxuoIkJws79Q&role=EDITOR&utm_content=DAEtqowtHe8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
-PPT Phase 3: https://www.canva.com/design/DAEt_NplE20/Te6USnClJk_J0_FyCXbFKA/view?utm_content=DAEt_NplE20&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+PPT Phase 2 SEE: https://www.canva.com/design/DAEt_NplE20/Te6USnClJk_J0_FyCXbFKA/view?utm_content=DAEt_NplE20&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+
+PPT Phase 3: https://docs.google.com/presentation/d/1Gqx13H83PI1evbdGn3HQXBA_72k7iLVm/edit?usp=sharing&ouid=113052291525435456443&rtpof=true&sd=true
 
 Literature survey table thing: https://docs.google.com/document/d/1bbA3sgY2ew07IvlQsbxQtRE1zMJUm21z0Zmmi57543U/edit?pli=1
 
