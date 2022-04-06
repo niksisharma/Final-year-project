@@ -190,7 +190,7 @@ AmpMat(:,2) = [Lvl.*ones(1350,1); Temp; Lvl*ones(450,1)];
 AmpMat(:,3) = [Temp(1351:end,1); Lvl*ones(1800,1); Temp(1:1350,1)];
 AmpMat(:,4) = [Temp(451:end,1); Lvl.*ones(1800,1); Temp(1:450,:)];
 
-for a = 1:10:3600 %3600 angles
+for a = 1:1:3600 %3600 angles
     TestAOA = TestAOAs(a);
     Ref = int32((TestAOA*10)+1800);
     for b = 1:20 %20 times
