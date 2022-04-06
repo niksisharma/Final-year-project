@@ -31,23 +31,27 @@ Ref =(TestAOA*10)+1800;
 
 Test_Powers = CDFMat_noisy(Ref,2:5);
 
+%% Eleminating antenna recieving lowest power level
 i=1;
-for c=1:4%traverse through 4 columns (4 antennas)
+for c=1:4
    Test_Power = Test_Powers(c);
    if Test_Power ~= min(Test_Powers)
        ThreeAntennas(i)=c;
        i=i+1;
    else
-       op1 = sprintf('Eliminating antenna %d ',c);
+       EliminatedAntenna = c
    end
 end
+
+%% Computing ratios
+
 CDFMat_noisy(:,6) = CDFMat_noisy(:,(ThreeAntennas(1)+1))-CDFMat_noisy(:,(ThreeAntennas(2)+1));
 CDFMat_noisy(:,7) = CDFMat_noisy(:,(ThreeAntennas(1)+1))-CDFMat_noisy(:,(ThreeAntennas(3)+1));
 CDFMat_noisy(:,8) = CDFMat_noisy(:,(ThreeAntennas(2)+1))-CDFMat_noisy(:,(ThreeAntennas(3)+1));
 
-r1 = Test_Powers((ThreeAntennas(1))) - Test_Powers((ThreeAntennas(2)));
-r2 = Test_Powers((ThreeAntennas(1))) - Test_Powers((ThreeAntennas(3)));
-r3 = Test_Powers((ThreeAntennas(2))) - Test_Powers((ThreeAntennas(3)));
+r1 = CDFMat_noisy(Ref,6);
+r2 = CDFMat_noisy(Ref,7);
+r3 = CDFMat_noisy(Ref,8);
 
 if (r1>0) && (r2>0)
     ClosestAntenna = ThreeAntennas(1);
@@ -74,16 +78,6 @@ end
 
 %%
 AOAVect = CDFMat_noisy(:,1);
-
-figure
-hold on;
-plot(AOAVect,CDFMat_noisy(:,2:5));
-xlabel('angle of arrival (in degrees)');
-ylabel('power (in dbm)');
-title('Amplitude Comparision with 4 Antennas');
-legend('Antenna 3','Antenna 4','Antenna 1','Antenna 2');
-axis([-180 180 -75 -60]);
-grid on;
 
 figure
 hold on;
